@@ -26,9 +26,8 @@ print(y)
 
 a = ["foo", "bar", "baz"]
 
-y = [item.upper() for item in a]
+print([item.upper() for item in a])
 
-print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
